@@ -1,0 +1,54 @@
+body{
+    background-color:antiquewhite;
+}
+body h1{
+    color:black;
+    font-size: 80px;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body span{
+    color:darkcyan;
+}
+body h2{
+    color: gray;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body p{
+    color: darkgrey;
+    font-size: 40px;
+}
+.profile img{
+    width: 25vw;
+    animation: floatImage 4s ease-in-out infinite;
+    border-radius: 60%;
+}
+body a{
+    color: cadetblue;
+    font-size: 40px;
+}
+button{
+    font-size: 55px;
+    background-color: wheat;
+    color: cadetblue;
+    padding: 10px 5px;
+    border-radius: 5%;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 90%;
+}
